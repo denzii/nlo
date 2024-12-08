@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+    // layout logic
+    display: flex;
+    flex-direction: column;
+    height: 100vh; // Full viewport height
+    overflow:hidden;      
+}
+  
+  * {
+    box-sizing: inherit;
+  }
+
+#__nuxt {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}  
